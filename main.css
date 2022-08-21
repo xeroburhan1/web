@@ -1,0 +1,103 @@
+* {
+  background-color: #081E36;
+  font-family: 'Fredoka', sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 5%;
+}
+
+header .logo {
+  width: 120px;
+}
+
+header .navlinks {
+  list-style: none;
+  text-decoration: none;
+}
+
+header .cart {
+  width: 30px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.hero {
+  padding: 10px 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 6%;
+}
+
+.hero .texts {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+.hero .texts .btn1 {
+  width: 130px;
+  font-size: 16px;
+  color: white;
+  padding: 10px 0;
+  border: 0;
+  border-radius: 25px;
+  outline: auto;
+  outline-color: #13E88B;
+  margin-right: 10px;
+}
+
+.hero .texts .btn2 {
+  width: 130px;
+  font-size: 16px;
+  color: white;
+  padding: 10px 0;
+  border: 0;
+  border-radius: 25px;
+  outline: none;
+  background-color: #7636FC;
+}
+
+.hero h1 {
+  color: #13E88B;
+  font-size: 40px;
+  line-height: 15px;
+  margin-bottom: 30px;
+}
+
+.hero p {
+  color: white;
+  font-size: 20px;
+  line-height: 25px;
+  opacity: 80%;
+  margin-bottom: 30px;
+}
+
+.hero .heroimg {
+  width: 500px;
+}
+/*# sourceMappingURL=main.css.map */

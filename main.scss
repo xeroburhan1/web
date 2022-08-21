@@ -1,0 +1,102 @@
+*{
+    background-color: #081E36;
+    font-family: 'Fredoka', sans-serif;
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+
+    .logo{
+        width: 120px;
+    }
+
+    .navlinks{
+        list-style: none;
+        text-decoration: none;
+        
+    }
+    .cart{
+        width: 30px;
+    }
+   
+}
+
+nav li{
+    display: inline-block;
+    padding: 0px 10px;
+    
+ a{
+     color: white;
+     text-decoration: none;
+     opacity: 0.5;
+ }
+
+}
+
+.hero{
+
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 6%;
+
+    .texts{
+        flex-basis: 60%;
+        
+
+        .btn1 {
+            width: 130px;
+            font-size: 16px;
+            color: white;
+            padding: 10px 0;
+            border: 0;
+            border-radius: 25px;
+            outline: auto;
+            outline-color: #13E88B;
+            margin-right: 10px;
+    
+        }
+
+        .btn2 {
+            width: 130px;
+            font-size: 16px;
+            color: white;
+            padding: 10px 0;
+            border: 0;
+            border-radius: 25px;
+            outline: none;
+            background-color: #7636FC;
+    
+        }
+    }
+
+    h1{
+        color: #13E88B;
+        font-size: 40px;
+        line-height: 15px;
+        margin-bottom: 30px;
+    }
+    p{
+        color: white;
+        font-size: 20px;
+        line-height: 25px;
+        opacity: 80%;
+        margin-bottom: 30px;
+    }
+
+
+    .heroimg{
+        width: 500px;
+        
+    }
+
+}
+
+
+
+
